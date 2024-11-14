@@ -19,6 +19,7 @@ body {
   background-color: rgba(196, 247, 76, 0.575);
   box-shadow: 0 0 3px BROWN;
 }
+
 h1 {
   color: rgb(0, 0, 0);
   margin: 0;
@@ -90,4 +91,21 @@ ul {
   font-weight: bolder;
   color: black;
 
+}
+
+/* MOBILE VIEW  */
+@media (max-width:480px) {
+  .container{
+    width: 90%;
+    margin-top: 50px;
+  }
+}
+/* IPAD VIEW  */
+@media (max-width:768px) {
+  .container{
+    width: 90%;
+    margin-top: 50px;
+
+    
+  }
 }
